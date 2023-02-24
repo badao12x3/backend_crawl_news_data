@@ -19,7 +19,7 @@ def get_articles():
 
     # Lặp qua các bài báo và lấy thông tin cần thiết
     for article in articles:
-        print(article)
+        # print(article)
         # Lấy link ảnh
         img_url = article['data-urlimg']
 
